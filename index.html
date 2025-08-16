@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishant Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" style="background: #8b5cf6; color: white; border: 2px solid #8b5cf6;">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Vishant</span>
+                </h1>
+                <h2 class="hero-subtitle">Web Developer & Designer</h2>
+                <p class="hero-description">
+                    I am a web Developer from Kota, Rajasthan, India.
+                    I love crafting cool web projects.
+                    My biggest achievement lies in my mastery of JavaScript and
+                    styling of components using css and stylesheet, 
+                    ensuring pixel-perfect designs that captivate users.
+                    With a keen eye for detail, a commitment to delivery speed and the best user experience. 
+                    I excel at creating seamless and responsive interfaces that leave a lasting impression.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="Vishant resume 2025.pdf.pdf" download="Vishant resume 2025.pdf" class="btn btn-tertiary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="resume pic.jpeg" alt="Vishant Giri" class="profile-image">
+                    </div>
+                    <div class="profile-info">
+                        <h3>Vishant Giri</h3>
+                        <p>Full Stack Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate web developer with expertise in creating modern, responsive websites and web applications. 
+                        With a strong foundation in both front-end and back-end development, I bring ideas to life through clean code and intuitive design.
+                    </p>
+                    <p>
+                        My journey in web development started with curiosity and has evolved into a passion for creating digital experiences 
+                        that not only look great but also solve real problems for users and businesses.
+                    </p>
+                    
+                    <!-- Personal Details -->
+                    <div class="personal-details">
+                        <div class="detail-item">
+                            <i class="fas fa-language"></i>
+                            <span><strong>Languages:</strong> English, हिन्दी</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-flag"></i>
+                            <span><strong>Nationality:</strong> Indian</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong>Gender:</strong> Male</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Hobbies Section -->
+                    <div class="hobbies-section">
+                        <h3>Hobbies & Interests</h3>
+                        <div class="hobbies-grid">
+                            <div class="hobby-item">
+                                <i class="fas fa-code"></i>
+                                <span>Coding</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-music"></i>
+                                <span>Music</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-futbol"></i>
+                                <span>Sports</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-car"></i>
+                                <span>Driving</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-plane"></i>
+                                <span>Travelling</span>
+                            </div>
+                            <div class="hobby-item">
+                                <i class="fas fa-book"></i>
+                                <span>Reading</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-card">
+                    <div class="education-header">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>Bachelor's of Computer Application</h3>
+                            <h4>MODI INSTITUTE OF MANAGEMENT & TECHNOLOGY, KOTA</h4>
+                            <p class="education-duration">2022 - 2025</p>
+                        </div>
+                    </div>
+                    <div class="education-description">
+                        <p>
+                            I discovered a strong passion for web development and started learning it in my free time. I’ve gained proficiency in frontend technologies and built several personal projects to practice and grow my skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>TO-DO-LIST</h3>
+                        <p>A beautiful and functional Todo List web app built with vanilla HTML, CSS, and JavaScript. Features task creation, editing, completion tracking, filtering, statistics, and local storage. Fully responsive with modern design and smooth animations.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://wikitills.github.io/TO-DO-LIST/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/WIKItills/TO-DO-LIST" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Basic-calculator</h3>
+                        <p>A modern, dark-themed calculator with smooth, rounded buttons, built using HTML, CSS, and JavaScript. Supports basic arithmetic operations, responsive design, keyboard input, and clean animations for an intuitive and visually appealing user experience.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://wikitills.github.io/Basic-calculator/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/WIKItills/Basic-calculator" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>travel-site</h3>
+                        <p>A responsive travel website built with HTML, CSS, and JavaScript, showcasing destinations, trip details, and booking options. Features interactive design, smooth navigation, and visually appealing layouts for an engaging user experience.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://wikitills.github.io/travel-site/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/WIKItills/travel-site" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:Vishantgiri12@gmail.com">vishantgiri12@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+917878586983">+91 78785 86983</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kota, Rajasthan, India</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/917878586983" target="_parent">WhatsApp Me</a>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/WIKItills" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/connectwithvishantgiri" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/GiriVishant?t=skWPJPw_QseDtNpWAs6FBA&s=09" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/vishant_giri?igsh=MTFuam8yMWhkdTF1bw==" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" action="http://formsubmit.co/connectwithvishantgiri@gmail.com" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Vishant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="emailjs-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
