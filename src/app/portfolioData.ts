@@ -34,7 +34,7 @@ export const portfolioData = {
     email: 'Vishantgiri12@gmail.com',
     phone: '+91 78785 86983',
     whatsapp: 'https://wa.me/917878586983',
-    resumeUrl: 'Vishant resume 2025.pdf', // Name of the file in the public directory
+    resumeUrl: 'Vishant resume 2026.pdf', // Name of the file in the public directory
   },
 
   socials: [
