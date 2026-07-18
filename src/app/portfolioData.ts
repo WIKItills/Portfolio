@@ -158,8 +158,7 @@ export const portfolioData = {
         description: "Developed a scalable full-stack women's ethnic clothing e-commerce website using React, TypeScript, Tailwind CSS, Vite, and Supabase (PostgreSQL). Built reusable and responsive UI catalog components, custom shopping cart modules, client-side routing, and integrated secure user authentication and database operations. Optimized application performance and deployment readiness with Cloudflare Workers/Pages.",
         image: 'https://images.unsplash.com/photo-1608748010899-18f300247112?auto=format&fit=crop&q=80&w=1000',
         tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Supabase', 'PostgreSQL', 'Cloudflare Pages'],
-        liveUrl: 'https://shemor.in',
-        sourceUrl: 'https://github.com/WIKItills'
+        liveUrl: 'https://shemor.in'
       },
       {
         title: 'TO-DO List',

@@ -8,7 +8,7 @@ interface ProjectCardProps {
   image: string;
   tags: string[];
   liveUrl: string;
-  sourceUrl: string;
+  sourceUrl?: string;
   index: number;
 }
 
@@ -51,17 +51,19 @@ export function ProjectCard({
           >
             <ExternalLink size={20} />
           </motion.a>
-          <motion.a
-            href={sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            className="w-12 h-12 flex items-center justify-center bg-white/10 hover:bg-white/20 rounded-full transition-colors"
-            aria-label="View source code"
-          >
-            <Github size={20} />
-          </motion.a>
+          {sourceUrl && (
+            <motion.a
+              href={sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              className="w-12 h-12 flex items-center justify-center bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+              aria-label="View source code"
+            >
+              <Github size={20} />
+            </motion.a>
+          )}
         </div>
       </div>
 
@@ -88,24 +90,28 @@ export function ProjectCard({
 
         {/* Links */}
         <div className="flex gap-3 pt-2">
-          <a
-            href={liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors text-sm"
-          >
-            <ExternalLink size={16} />
-            Live Demo
-          </a>
-          <a
-            href={sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-gray-400 hover:text-gray-300 transition-colors text-sm"
-          >
-            <Github size={16} />
-            Source
-          </a>
+          {liveUrl && (
+            <a
+              href={liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors text-sm"
+            >
+              <ExternalLink size={16} />
+              Live Demo
+            </a>
+          )}
+          {sourceUrl && (
+            <a
+              href={sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-gray-400 hover:text-gray-300 transition-colors text-sm"
+            >
+              <Github size={16} />
+              Source
+            </a>
+          )}
         </div>
       </div>
     </motion.div>
