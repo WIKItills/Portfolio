@@ -29,7 +29,7 @@ export const portfolioData = {
   personal: {
     name: 'Vishant',
     fullName: 'Vishant Giri',
-    title: 'Software Engineer & Frontend Developer',
+    title: 'Frontend Developer',
     location: 'Kota, Rajasthan, India',
     email: 'Vishantgiri12@gmail.com',
     phone: '+91 78785 86983',
@@ -51,9 +51,9 @@ export const portfolioData = {
 
   hero: {
     badgeText: "Hi, I'm Vishant Giri",
-    headingMain: 'Software Engineer',
-    headingSub: '& Frontend Developer',
-    description: 'Frontend Developer & Software Engineer with 1+ year of experience building responsive, scalable, and user-centric web applications. Specializing in writing clean, maintainable code and delivering high-quality user experiences.',
+    headingMain: 'Frontend',
+    headingSub: 'Developer',
+    description: 'Frontend Developer with 1+ year of experience building responsive, scalable, and user-centric web applications. Specializing in writing clean, maintainable code and delivering high-quality user experiences.',
     ctaPrimary: 'View My Work',
     ctaSecondary: 'Get In Touch',
   },
