@@ -165,7 +165,7 @@ export const portfolioData = {
         description: 'A beautiful and functional Todo List web app built with vanilla HTML, CSS, and JavaScript. Features task creation, editing, completion tracking, filtering, statistics, and local storage. Fully responsive with modern design and smooth animations.',
         image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&q=80&w=1000',
         tags: ['HTML', 'CSS', 'JavaScript'],
-        liveUrl: 'https://wikitills.github.io/TO-DO-LIST/',
+        liveUrl: 'https://my-dailytask.vercel.app',
         sourceUrl: 'https://github.com/WIKItills/TO-DO-LIST'
       },
       {
