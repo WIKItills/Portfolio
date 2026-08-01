@@ -142,18 +142,26 @@ export const portfolioData = {
     list: [
       {
         title: 'Shemor',
-        description: "Developed a scalable full-stack women's ethnic clothing e-commerce website using React, TypeScript, Tailwind CSS, Vite, and Supabase (PostgreSQL). Built reusable and responsive UI catalog components, custom shopping cart modules, client-side routing, and integrated secure user authentication and database operations. Optimized application performance and deployment readiness with Cloudflare Workers/Pages.",
+        description: "Developed a scalable full-stack women's ethnic clothing e-commerce website using React, TypeScript, Tailwind CSS, Vite, and Supabase (PostgreSQL). Built reusable and responsive UI components, implemented client-side routing, and integrated secure authentication and database operations. Optimized application performance, maintainability, and deployment readiness by following modern development practices and configuring deployment with Cloudflare Workers/Pages.",
         image: 'https://images.unsplash.com/photo-1608748010899-18f300247112?auto=format&fit=crop&q=80&w=1000',
         tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Supabase', 'PostgreSQL', 'Cloudflare Pages'],
         liveUrl: 'https://shemor.in'
       },
       {
-        title: 'TO-DO List',
-        description: 'A beautiful and functional Todo List web app built with vanilla HTML, CSS, and JavaScript. Features task creation, editing, completion tracking, filtering, statistics, and local storage. Fully responsive with modern design and smooth animations.',
+        title: 'Daily Task',
+        description: 'Developed a full-stack task verification system with secure JWT authentication and role-based access control (Student, Teacher, Admin). Integrated Cloudinary and Multer for secure multi-image uploads and implemented password recovery using security questions. Enhanced security with Helmet, API rate limiting, and NoSQL injection protection while delivering a responsive UI.',
         image: 'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&q=80&w=1000',
-        tags: ['HTML', 'CSS', 'JavaScript'],
+        tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind CSS'],
         liveUrl: 'https://my-dailytask.vercel.app',
         sourceUrl: 'https://github.com/WIKItills/TO-DO-LIST'
+      },
+      {
+        title: 'Full Website Modules',
+        description: 'Built and maintained entire website modules using HTML, CSS, JavaScript, jQuery and Bootstrap, focusing on scalability and performance. Implemented UI/UX best practices, resulting in intuitive and visually appealing interfaces. Integrated third-party services and APIs using Ajax, enhancing the functionality and user experience. Developed on demand landing pages for new campaigns considering all UI/UX principles.',
+        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000',
+        tags: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap', 'AJAX'],
+        liveUrl: 'https://github.com/WIKItills',
+        sourceUrl: 'https://github.com/WIKItills'
       },
       {
         title: 'Basic-calculator',
