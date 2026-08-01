@@ -91,19 +91,6 @@ export const portfolioData = {
           'Improved procurement efficiency, inventory visibility, and operational workflows by implementing business logic, workflow automation, and performance optimizations.'
         ],
         technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'REST APIs', 'TypeScript']
-      },
-      {
-        title: 'Frontend Development Intern',
-        company: 'eSaral Ventures Pvt. Ltd.',
-        location: 'Kota, Rajasthan',
-        period: 'Jan 2025 – Feb 2025',
-        achievements: [
-          'Built and maintained entire website modules using HTML, CSS, JavaScript, jQuery, and Bootstrap, focusing on scalability and performance.',
-          'Converted PSD and Figma design mockups into modular, responsive HTML, CSS, JavaScript, Bootstrap, and jQuery templates.',
-          'Collaborated with designers and developers to ensure UI/UX consistency, technical feasibility, and responsive implementation.',
-          'Developed on-demand landing pages for marketing campaigns and integrated AJAX and third-party APIs to deliver dynamic user experiences.'
-        ],
-        technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'Bootstrap', 'AJAX', 'Figma']
       }
     ]
   },
